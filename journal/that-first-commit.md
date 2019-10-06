@@ -1,6 +1,6 @@
 ---
 date: 2019-10-05
-author: Nichlas W. Andersen
+author: Cesar Costas
 title: That first commit
 excerpt: First post in the journal
 
