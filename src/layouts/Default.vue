@@ -1,8 +1,10 @@
 <template>
-  <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
+  <div class="app-layout">
     <Header />
-    <slot/>
-    <Footer />
+    <div class="app-layout__body">
+      <slot/>
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -49,12 +51,17 @@ h1 {
   letter-spacing: -0.01em;
 }
 
-.layout {
-  padding: 0;
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.app-layout__body {
+  overflow: auto;
 }
 
-.layout.sticky-header {
-  padding: 6rem 0 0 0;
+.layout {
+  padding: 0;
 }
 
 .container {
@@ -75,6 +82,23 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.fitted-img > p {
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+blockquote {
+  position: relative;
+  margin: 1em 0;
+  padding: 0.1px 0 0.1px 1em;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  border-color: #CCC;
+  color: #777;
+  font-style: italic;
+  font-size: 1.1em;
 }
 
 .label {

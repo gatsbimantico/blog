@@ -1,11 +1,11 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
+    <header class="header">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
-                    <img 
+                    <img
                         src="../../static/logo.svg"
-                        :alt="settings.site_name" 
+                        :alt="settings.site_name"
                         class="logo"
                     />
                 </g-link>
@@ -32,14 +32,8 @@ export default {
 <style scoped>
 .header {
     position: relative;
-    height: 6rem;
-    z-index: 10;
-}
-.header.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    height: 4rem;
+    flex: 0 0 4rem;
 }
 .header > .container {
     display: flex;
@@ -58,7 +52,7 @@ export default {
     font-weight: 700;
     letter-spacing: 0.05em;
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
 .nav > * {
     font-size: 0.9rem;

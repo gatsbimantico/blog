@@ -1,6 +1,6 @@
 ---
 date: 2019-10-06
-thumbnail: "/uploads/Cesar  (134) - Copy.JPG"
+thumbnail: "/uploads/Cesar134.jpg"
 title: This blog
 categories:
 - personal development
@@ -30,9 +30,9 @@ For **storage** I chose [**https://github.com**](https://github.com "https://git
 
 And as a **content manager** I chose [**https://forestry.io**](https://forestry.io "https://forestry.io") as it works on top of Github and other similar services, providing exactly the bare minimum content management I was looking for.
 
-While starting with Forestry some options are presented about the technology that you want to use under the skin. This will affect to how easy I can jump into the code and modify it.  
-I chose for my starter to go with [**https://gridsome.org/**](https://gridsome.org/ "https://gridsome.org/"), a framework on top of Vue, that will be rendered on build and generate a static site. A site with Gatsby would do the same, but on top of React.  
-At this point I chose Vue over React just because of the way the styles are used in Vue, as it's probably the piece of code I change the most.  
+While starting with Forestry some options are presented about the technology that you want to use under the skin. This will affect to how easy I can jump into the code and modify it.
+I chose for my starter to go with [**https://gridsome.org/**](https://gridsome.org/ "https://gridsome.org/"), a framework on top of Vue, that will be rendered on build and generate a static site. A site with Gatsby would do the same, but on top of React.
+At this point I chose Vue over React just because of the way the styles are used in Vue, as it's probably the piece of code I change the most.
 Gridsome will require building, so Github pages it's not a solution anymore.
 
 Luckily there's [**https://netlify.com**](https://netlify.com "https://netlify.com") allowing us to do **continuous deployment**, which means every time that we update the site, it's going to get redeployed and we'll see the changes.

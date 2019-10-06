@@ -2,10 +2,10 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Cesar Costas",
+  siteUrl: `https://gatsbimantico.netlify.com`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s - CCC",
   siteDescription: "Creative technologist",
   plugins: [
     {
