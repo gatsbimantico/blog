@@ -36,4 +36,5 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/modeling.md
 - projects/this-blog.md
