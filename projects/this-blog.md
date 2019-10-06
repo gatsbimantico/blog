@@ -1,6 +1,6 @@
 ---
 date: 2019-10-06
-thumbnail: ''
+thumbnail: "/uploads/Cesar  (134) - Copy.JPG"
 title: This blog
 categories:
 - personal development
