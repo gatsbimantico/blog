@@ -1,7 +1,7 @@
 ---
 date: 2019-10-06
 thumbnail: "/uploads/Cesar134.jpg"
-title: This blog
+title: About this blog
 categories:
 - personal development
 - blog creation
