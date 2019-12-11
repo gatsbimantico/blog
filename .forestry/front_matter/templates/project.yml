@@ -37,4 +37,5 @@ fields:
   label: Foreground color
 pages:
 - projects/this-blog.md
+- projects/travel.md
 - projects/modeling.md
