@@ -8,6 +8,8 @@ categories:
 - static sites
 project_bg_color: ''
 project_fg_color: ''
+journal:
+- journal/that-first-commit.md
 
 ---
 I guess it all starts with me wanting a showroom for my projects and experiments.

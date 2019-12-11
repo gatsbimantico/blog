@@ -47,6 +47,6 @@ fields:
   label: Journal
   description: related posts
 pages:
-- projects/this-blog.md
 - projects/travel.md
+- projects/this-blog.md
 - projects/modeling.md
