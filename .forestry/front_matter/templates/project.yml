@@ -35,6 +35,17 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: journal
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: journal
+  label: Journal
+  description: related posts
 pages:
 - projects/this-blog.md
 - projects/travel.md
