@@ -1,5 +1,6 @@
 {
-  "name": "itsnwa.com",
+  "name": "@gatsbimantico/blog",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "gridsome build",
